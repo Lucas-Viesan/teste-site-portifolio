@@ -15,6 +15,15 @@
     font-size: 36px;
   }
 
+  p {
+    font-size: 24px;
+  }
+
+  a {
+    color: #1e1e1e;
+    font-size: 28px;
+  }
+
   p.cards {
     font-size: 24px;
     text-align: center;
@@ -136,10 +145,21 @@
     height: auto;
   }
   .section-expiriences-card {
-    width: 90vw;
+    width: 94%;
+    margin-top: 40px;
+  }
+
+  .section-contact {
+    padding-top: 12px;
+    padding-bottom: 64px;
+  }
+
+  .section-contact-item {
+    margin-top: 12px;
+    margin-bottom: 16px;
   }
 
   .footer-content {
-    width: 100%;
+    width: 94%;
   }
 }
