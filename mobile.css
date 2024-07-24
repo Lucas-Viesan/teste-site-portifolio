@@ -112,10 +112,29 @@
 
   .section-portfolio-grid {
     row-gap: 36px;
-    grid-template-columns: auto;
-    margin-top: 24px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 40px;
   }
 
+  .section-portfolio-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 46vw;
+    height: auto;
+    padding: 24px 0px;
+  }
+
+  .section-portfolio-cards-links {
+    width: 35%;
+  }
+
+  .section-portfolio-cards-icons-img {
+    width: 36px;
+    height: auto;
+  }
   .section-expiriences-card {
     width: 90vw;
   }
